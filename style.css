@@ -12,6 +12,11 @@ h1 {
     padding: 20px 0;
 }
 
+.label {
+    display: block;
+    padding-bottom: 10px;
+}
+
 .input,
 .button {
     width: 100%;
@@ -34,4 +39,28 @@ h1 {
 .button:hover {
     cursor: pointer;
     background-color: #007bc6;
+}
+
+.crossout {
+    text-decoration: line-through;
+}
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

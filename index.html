@@ -7,11 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Список задач пользователя</h1>
+    <h1>Вывод изображений</h1>
     <form method="post" id="form" class="form">
-        <input type="number" value="" class="input" name="userId" placeholder="Введите число">
-        <button id="button" class="button">Получить список задач</button>
+        <label for="number" class="label">Номер страницы</label>
+        <input type="text" value="" class="input" name="number" placeholder="Номер сраницы">
+        <label for="number" class="label">Лимит</label>
+        <input type="text" value="" class="input" name="limit" placeholder="Лимит">
+        <button id="button" class="button">Запрос</button>
     </form>
-    <script src="script5.js"></script>
+
+    <section id="result">
+        <div class="container"></div>
+    </section>
+
+    <script src="script6.js"></script>
 </body>
 </html>
