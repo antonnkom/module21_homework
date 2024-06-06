@@ -13,8 +13,7 @@ button.addEventListener('click', async (e) => {
     e.preventDefault();
     const page = parseInt(form.querySelector('input[name="number"]').value);
     const limit = parseInt(form.querySelector('input[name="limit"]').value);
-    const requestResult = await useRequest(page, limit);
-    console.log(page, limit, requestResult);
+    await useRequest(page, limit);
 });
 
 function parseData(obj)
